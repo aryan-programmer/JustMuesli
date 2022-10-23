@@ -1,0 +1,96 @@
+.mixer {
+	display: flex;
+}
+
+.mixer-ingredients-selector {
+	width: 56%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.mixer-category-list {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	height: min-content;
+	z-index: 2;
+}
+
+.mixer-category-list > div {
+	background-color: #f5f5f5;
+	margin: 1em;
+	margin-right: 0;
+	padding: 1em;
+	height: min-content;
+	border: 1px solid black;
+	border-right: none;
+}
+
+.mixer-ing-sel-list {
+	z-index: 0;
+	background-color: #f5f5f5;
+	margin: 1em;
+	margin-left: -1px;
+	padding: 1em;
+	flex-grow: 1;
+	border: 1px solid black;
+}
+
+.mixer-mix {
+	flex-grow: 1;
+	display: flex;
+	margin: 1em;
+	padding: 1em;
+	top: 0;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	background-color: #f5f5f5;
+	max-height: 80vh;
+	border: 1px solid black;
+}
+
+.mixer-selector-ingredient {
+	padding: 0.25em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	background-color: #cee3f4;
+}
+
+.mixer-selector-button {
+	float: right;
+}
+
+#mix-ingredients {
+	list-style-type: none;
+	padding: 0.25em;
+	margin: 0px;
+	overflow-y: auto;
+}
+
+#mix-ingredients li {
+	list-style: none;
+	display: flex;
+}
+
+#mix-ingredients li.filler-ingredient {
+	background-color: #f5ffe8;
+}
+
+#mix-ingredients li .grams-view {
+	width: 35%;
+	border: 1px solid black;
+	border-radius: 0;
+	padding: 0.1em;
+	background-color: #f4dcdc;
+	text-align: center;
+	margin: 0.2em;
+}
+
+#mix-ingredients li .name-view {
+	flex-grow: 1;
+	align-self: center;
+	margin: 0.1em;
+}

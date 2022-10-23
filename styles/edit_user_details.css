@@ -1,0 +1,11 @@
+.form {
+	min-width: 30rem;
+}
+
+.form-label{
+	width: 30%;
+}
+
+.form-input{
+	flex-grow: 1;
+}

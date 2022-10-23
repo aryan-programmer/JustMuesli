@@ -1,0 +1,30 @@
+.mixes {
+	min-width: 30rem;
+}
+
+.mix {
+	background: #ddd;
+	padding: 0.5rem;
+	margin: 0.5em 0;
+	display: flex;
+}
+
+.mix-name {
+	font-size: 1.55em;
+	font-weight: bold;
+	flex-grow: 1;
+	height: min-content;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 2rem;
+}
+
+.mix-actions {
+	display: flex;
+}
+
+.mix-action {
+	font-size: 1.05rem;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}

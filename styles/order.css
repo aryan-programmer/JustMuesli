@@ -1,0 +1,50 @@
+.order {
+	display: flex;
+}
+
+.order-mix-selector {
+	flex-grow: 1;
+	width: 70%;
+	display: flex;
+	margin: 1em;
+	padding: 1em;
+	background-color: #f5f5f5;
+	border: 1px solid black;
+}
+
+.order-mix-input-quantity {
+	width: 100%;
+	min-width: 1em;
+}
+
+.order-costs {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	padding: 1em;
+	top: 0;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	background-color: #f5f5f5;
+	max-height: 80vh;
+	align-self: start;
+	border: 1px solid black;
+}
+
+.order-cost {
+	display: flex;
+	margin-bottom: 0.5em;
+	width: 100%;
+}
+
+.cost-title {
+	flex-grow: 1;
+	margin-right: 0.25em;
+}
+
+.cost-value {
+	width: 45%;
+	margin: 0;
+	margin-left: 0.25em;
+}
